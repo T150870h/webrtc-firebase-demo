@@ -3,18 +3,13 @@ import './style.css';
 import firebase from 'firebase/app';
 import 'firebase/firestore';
 
-const firebaseConfig = {
-  // your config
-  apiKey: "API_KEY",
-  authDomain: "PROJECT_ID.firebaseapp.com",
-  // The value of `databaseURL` depends on the location of the database
-  databaseURL: "https://DATABASE_NAME.firebaseio.com",
-  projectId: "PROJECT_ID",
-  storageBucket: "PROJECT_ID.appspot.com",
-  messagingSenderId: "SENDER_ID",
-  appId: "APP_ID",
-  // For Firebase JavaScript SDK v7.20.0 and later, `measurementId` is an optional field
-  measurementId: "G-MEASUREMENT_ID",
+const firebaseConfig = { 
+  apiKey : "AIzaSyAg7aLWjB7Yeqwv_lfMVNv9g1HiLQ-_8sA" , 
+  authDomain : "webrtc-1282e.firebaseapp.com" , 
+  projectId : "webrtc-1282e" , 
+  storageBucket : "webrtc-1282e.appspot.com" , 
+  messagingSenderId : "1022207563355" , 
+  appId : "1:1022207563355:web:e28534b0c36ed71f07917e" 
 };
 
 if (!firebase.apps.length) {
